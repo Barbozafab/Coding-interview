@@ -1,4 +1,4 @@
-all : main
+all : main testar clean
 
 main : main.o pilha_v.o
 	gcc main.o pilha_v.o -lm -o main
@@ -8,3 +8,10 @@ main.o : main.c pilha_v.h
 
 pilha_v.o : pilha_v.c pilha_v.h
 	gcc -std=c99 -Wall -Werror -c pilha_v.c
+
+testar : main
+	./main
+
+clean :
+	rm *.o
+	rm main
