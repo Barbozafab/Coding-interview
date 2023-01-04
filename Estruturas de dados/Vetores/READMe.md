@@ -1,4 +1,4 @@
-# Listas
+# Vetores
 
 Implementa, em C, um vetor dinâmico.
 
