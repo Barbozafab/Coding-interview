@@ -7,6 +7,8 @@ Pilha* cria_pilha() {
     Pilha* pilha = malloc(sizeof(Pilha));
     verifica_endereco(pilha);
 
+    pilha->topo = NULL;
+
     return pilha;
 }
 
@@ -30,7 +32,7 @@ void imprime_pilha(Pilha* pilha) {
     No* atual = pilha->topo;
 
     while(atual != NULL) {
-        printf("[%d] -> ", atual->dado);
+        printf("[%d] <- ", atual->dado);
         atual = atual->prox;
     }
 

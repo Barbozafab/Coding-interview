@@ -4,7 +4,7 @@
 #include "pilha_ll.h"
 
 int main(int argc, char const* argv[]) {
-    Pilha* pilha = cria_pilha(4);
+    Pilha* pilha = cria_pilha();
 
     assert(empty(pilha));
 

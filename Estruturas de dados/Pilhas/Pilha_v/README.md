@@ -34,7 +34,7 @@ void imprime_pilha(Pilha* pilha);
 int empty(Pilha* pilha);
 ~~~
 
-* Retorna 1 se a fila estiver cheia, 0 caso contrário
+* Retorna 1 se a pilha estiver cheia, 0 caso contrário
 ~~~c
 int full(Pilha* pilha);
 ~~~
@@ -44,7 +44,7 @@ int full(Pilha* pilha);
 void push(Pilha* pilha, int num);
 ~~~
 
-* Remove o item no topo da pilha
+* Remove e retorna o item no topo da pilha
 ~~~c
 int pop(Pilha* pilha);
 ~~~

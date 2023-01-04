@@ -23,6 +23,7 @@ void destroi_pilha(Pilha* pilha) {
 
 void imprime_pilha(Pilha* pilha) {
     printf("[");
+
     for (register int i = 0; i < pilha->topo; i++) {
         printf("%d, ", pilha->dados[i]);
     }
