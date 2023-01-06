@@ -11,3 +11,4 @@ Este projeto contém o código produzido ao longo do curso ["Coding Interview Un
 
 ## [Busca e árvores](/Busca%20e%20%C3%A1rvores/)
 * [Busca binária](/Busca%20e%20%C3%A1rvores/Busca%20bin%C3%A1ria/)
+* [Árvores binárias](/Busca%20e%20%C3%A1rvores/%C3%81rvores%20bin%C3%A1rias/)
